@@ -1,0 +1,187 @@
+/* here we change of logo image */
+.logo1{
+    position: relative;
+    float:left;
+    left: 0px;
+    height: 100%;
+    width: auto;
+}
+
+.title1{
+    position: relative;
+    float:left ;
+    left: 55px;
+    right: 0px;
+    top: 41px;
+    font-size:300%;
+  }
+
+#sub_tit{
+    position: relative;
+    float:left;
+    left: 245px;
+    top: 26px;
+    width: 490px;
+    font-size:150%;
+}
+
+
+/* here we change of image with */
+.img01{
+    position: relative;
+     
+    /* width: 3342px; */
+    max-width: 100%;
+    height: 1000px;
+    /* top: -21px; */
+    
+
+}
+
+.frame1{
+    position: relative;
+    height: 250px; 
+    width: auto;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.frame2{
+    
+    position: relative;
+    height: 250px; 
+
+    top: 0px;
+    
+    background-color: black;
+    
+    
+}
+.frame3{
+    position: relative;
+    height: 1150px;
+    margin-bottom: 0px; 
+    width: 100%;
+    top: 0px;
+    
+    
+}
+
+.frame4{
+    position: relative;
+    height: 1150px; 
+    top: 0px;
+    
+    
+}
+
+.frame5{
+    position: relative;
+    height: 1150px;   
+    top: 0px;
+    
+}
+.frame6{
+    position: relative;
+    
+    
+}
+
+/* here we change of image with */
+.img02{
+    position: relative;
+     
+    width: 3342px;
+    
+    height: 1000px;
+
+}
+
+
+
+/* change font size in navi bar */
+.navbar{
+    background-color: black;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    left: 0px;
+    font-size:367%;
+       
+}
+
+.nav_btn{
+    width: 299px;
+}
+/* here i mention direction bar float, remove styling , add margin in bar */
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 0.7% 2% 1%;
+}
+
+/* it is used to handling floating  */
+.navbar ul{
+    overflow: auto;
+    width: 100%;
+    display: inline-block;
+    
+}
+
+/* here add padding ,remove decoration, change font color in fonts */
+.navbar li a{
+    padding: 3% 3%;
+    text-decoration: none;
+    color: white;
+}
+
+
+.search{
+    position: relative; 
+    float: left;
+    color: white;
+    padding: 10px 2px;
+    width: 1129px;
+    border: 8px;
+
+    
+    left: 280px;
+}
+
+/* s */
+.navbar input{
+    border: 2px solid black;
+    border-radius: 400px;
+    padding: 28px 247px;
+    width: 129px;
+}
+
+/* s */
+.navbar li a:hover{
+    color: red
+}
+
+#sub_heading{
+    
+    margin: auto;
+    text-align: center;
+    font-size: 323% ;
+
+}
+
+.box {
+    border: 0px solid black;
+    background-color: #81c7ea;
+    margin: 0px 0px;
+    padding: 23px;
+    width: 25%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.container{
+   
+    margin: auto;
+    padding: 23px;
+    width: 3235px;
+
+}
