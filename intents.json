@@ -1,0 +1,1265 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Hi",
+				"Hey",
+				"How are you",
+				"Is anyone there?",
+				"Hello",
+				"Good day"
+			],
+			"responses": [
+				"Hey :-)",
+				"Hello, thanks for visiting",
+				"Hi there, what can I do for you?",
+				"Hi there, how can I help?"
+			]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"Bye",
+				"See you later",
+				"Goodbye"
+			],
+			"responses": [
+				"See you later, thanks for visiting",
+				"Have a nice day",
+				"Bye! Come back again soon."
+			]
+		},
+		
+		{
+			"tag": "college_alumni",
+			"patterns": [
+				"tell me about your college alimni",
+				"tell me about your college alumni Network",
+				"alimni of your college"
+			],
+			"responses": [
+				"Go to this link for know more about alumni of our college : https://www.smitalumni.in/"
+			]
+		},
+		{
+			"tag": "admission",
+			"patterns": [
+				"what is your college admission process",
+				"tell me about your admission proccedure",
+				"tell me about registration process",
+				"registration process",
+				"what are the registration procedure",
+				"how should we go for the first process of registration",
+				"tell me about admission in your college",
+				"what do I require for the registration procedure",
+				"what is the admission process in your university"
+			],
+			"responses": [
+				"1. Fill the form (Last Date - 31th july) \n 2. Submit documents (Aadhaar, 10th Marksheet, 12th Marksheet, Migration Certificate, Transfer Certicate, Caste Certificate(SC/ST/OBC))) \n 3. Pay the Course & Hostel fee \n 4. Fill The anti-ragging form \n 5. Admission Successfully completed"
+			]
+		},
+		
+		{
+			"tag": "how_pay_fees",
+			"patterns": [
+				"tell me how i can pay the fees",
+				"tby which online mode we can submit the fee",
+				"What is the mode inwhich i pay the fees",
+				"how we can pay the fees"
+			],
+			"responses": [
+				"You can pay large fee amounts safely using Paytm Net Banking (NB), Debit Card (DC), Credit Card (CC), Paytm Wallet or UPI."
+			]
+		},
+		{
+			"tag": "ranking",
+			"patterns": [
+				"tell me about nirf ranking of your college",
+				"nirf ranking of your college",
+				"What is your ranking in comparison to other colleges ?",
+				"what ranking of your college in india"
+			],
+			"responses": [
+				"NIRF -> University: 101-150 (Rank Band) \n INDIA TODAY Rank -> Best Engineering Private College Overall (Rank - 19) -> Best Private Engg. College (East Zone) (Rank - 02) -> Top 10 Emerging Private Colleges  (Rank - 05)"
+			]
+		},
+
+		{
+			"tag": "campus_area",
+			"patterns": [
+				"tell me about campus area",
+				"tell me about college area property",
+				"college area",
+				"how big is your campus is",
+				"what is smit in area wise"
+
+			],
+			"responses": [
+				"SMIT is spread across 25 acres land covered with greenary and surrounded by beautiful mountains"
+			]
+		},
+		{
+			"tag": "Best_department",
+			"patterns": [
+				"which is the best department in SMIT",
+				"which is the best branch in your college",
+				"tell me about best department in your college",
+				"which department has highest placement in your college",
+				"best b tech department in your university"
+			],
+			"responses": [
+				"According to MHRD's AISHE report (link to report in last section) the 5 best branches in engineering are Mechanical Engineering, Computer Engineering, Electronics Engineering, Civil Engineering, and Electrical Engineering."
+			]
+		},
+		{
+			"tag": "get_addmission",
+			"patterns": [
+				"how to get admission in smit",
+				"how to i get admission in smit",
+				"i want to take admission in your college",
+				"eligibility criteria of admission in smit",
+				"the requirements for admission to SMIT",
+				"tell me about how to get admission in your college",
+				"tell me about admission Eligibility in your college",
+				"what is your college admission Eligibility for b tech student"
+
+			],
+			"responses": [
+				"SMIT addmission Eligibility: Class 12 with 50% aggregate \n Qualifying exam: JEE Main/ SMIT Online Test/ MET"
+			]
+		},
+		{
+			"tag": "last_date",
+			"patterns": [
+				"tell me about last date to apply in your college",
+				"Tell me when the deadline for applying to your college is",
+				"admission closing date in your college",
+				"When is your college's admissions period going to end ?",
+				"last date of addmission of your college",
+				"what is the last date for your registration in your college",
+				"last date for registration"
+
+			],
+			"responses": [
+				"Last date to apply is 31th july"
+			]
+		},
+		{
+			"tag": "program",
+			"patterns": [
+				"what courses your university offered",
+				"name the course you offer in your college",
+				"tell me about your engineering courses in your college",
+				"courses provided by your university",
+				"what are the b.tech branches in smit",
+				"how many b tech branches in your college ?",
+				"B.Tech programs you offer",
+				"How many departments are there in btech?",
+				"what are the courses that are being taught ?",
+				"what are the courses that are being taught in your college?"
+			],
+			"responses": [
+				"we offer 5 unique engineering courses :\n->B Tech CSE\n->B Tech I.T\n->B Tech M.E\n->B Tech C.E\n->B Tech ECE"
+			]
+		},
+		{
+			"tag": "post_graduate_program",
+			"patterns": [
+				"what post graduate courses your university offered",
+				"name the post graduate course you offer in your college",
+				"tell me about your engineering post graduate courses in your college",
+				"post graduate courses provided by your university",
+				"what are the post graduate branches in smit",
+				"how many post graduate branches in your college ?",
+				"post graduate programs you offer",
+				"How many departments are there in post graduate?",
+				"what are the post graduate courses that are being taught ?",
+				"what are the post graduate courses that are being taught in your college?"
+			],
+			"responses": [
+				"we offer 9 unique engineering courses :\n->M.Tech in Digital Electronics & Communication Engineering CSE\n->M.Tech in Computer Science & Engineering\n->M.Tech in Structural Engineering\n->M.Tech in Power Electronics\n->Master of Computer Application\n->MBA - Master of Business Administration\n->MSc Mathematics\n->MSc Chemistry\n->MSc Physics"
+			]
+		},
+		{
+			"tag": "course_fees",
+			"patterns": [
+				"fees structure of your course in your college",
+				"tell me about course fees or tution fess or program fees",
+				"tell me about course fees",
+				"course fees",
+				"what is the tution fee",
+				"tell me about your college fees structure",
+				"how much i have to pay for college fees",
+				"what's the fee structue for btech",
+				"what's the btech fee structure"
+			],
+			"responses": [
+				"4 year Course fee per annum : \nB.Tech CSE -> 3,20,000\nB.Tech I.T -> 3,20,000\nB Tech ECE -> 2,70,000\nB Tech M.E -> 2,60,000\nB Tech C.E -> 2,60,000"
+			]
+		},
+		{
+			"tag": "smit_scholarship",
+			"patterns": [
+				"does your college provide scholarship",
+				"tell me about scholarship",
+				"tell me about college scholarship"
+			],
+			"responses": [
+				" For scholarship go to this link : https://smu.edu.in/smu/admission/important-links/scholarships.html  "
+			]
+		},
+		{
+			"tag": "College_director",
+			"patterns": [
+				"who is the director of smit",
+				"who is the director of your college",
+				"director of your university",
+				"tell me about director of smit",
+				"tell me about college director"
+			],
+			"responses": [
+				"College Director : Professor (Dr) G L Sharma is Director, in Sikkim Manipal Institute of Technology (SMIT) and Professor in the department of Mechanical Engineering."
+			]
+		},
+		{
+			"tag": "College_admission_chairman",
+			"patterns": [
+				"who is the admission chairman of smit",
+				"who is the admission chairman of your college",
+				"admission chairman of your university",
+				"tell me about admission chairman of smit",
+				"tell me about college admission chairman"
+			],
+			"responses": [
+				"College admission chairman : Dr. Jitendra Kumar (Chairman Admission) Mobile No: +91 9732947000, in Sikkim Manipal Institute of Technology (SMIT) ."
+			]
+		},
+		{
+			"tag": "College_vice_chancellor",
+			"patterns": [
+				"who is the vice chancellor of smit",
+				"who is the vice chancellor of your college",
+				"vice chancellor of your university",
+				"tell me about vice chancellor of smit",
+				"tell me about college vice chancellor"
+			],
+			"responses": [
+				"College vice chancellor : Brig. (Dr) Somnath Mishra (Retd.), The Vice Chancellor of Sikkim Manipal University (SMU) has conveyed his welcome message for the new joinees."
+			]
+		},
+		{
+			"tag": "NLP_teacher",
+			"patterns": [
+				"who is the NLP teacher of smit",
+				"who teach nlp in your college",
+				"tell me about Saumya Das sir",
+				"tell me about Saumya sir",
+				"who is Saumya sir",
+				"who is Saumya Das"
+			],
+			"responses": [
+				"Dr. Saumya Das : Dr. Saumya Das is an Assistant Professor-I in the Department of IT at SMIT."
+			]
+		},
+		{
+			"tag": "software_eng_teacher",
+			"patterns": [
+				"who is the Software Engineering teacher of smit",
+				"who teach Software Engineering in your college",
+				"who is p&t Coordinator in your college",
+				"who is departmental library In-chargein your college",
+				"tell me about Sonam Lhamu Bhutia",
+				"who is Sonam Lhamu Bhutia"
+			],
+			"responses": [
+				"Sonam Lhamu Bhutia mam : Sonam Lhamu Bhutia is Assistant Professor (Selection Grade)  in the Department of Information Technology at SMIT."
+			]
+		},
+		
+		{
+			"tag": "hostel_fees",
+			"patterns": [
+				"how much we have pay for hostel fees",
+				"what is your hostel fees in your college",
+				"tell me about hostel facility fees",
+				"tell me what is the fee of your hostel and mess",
+				"what is the fee of hostel and mess",
+				"tell me about hostel fees"
+			],
+			"responses": [
+				"hostel fees : Single room -> 1,17,000 (including mess fees) \n Double sharing room -> 1,17,000 + 25000 (including mess fees)"
+			]
+		},
+		{
+			"tag": "mess_fees",
+			"patterns": [
+				"how much we have pay for mess fees",
+				"what is your mess fees in your college",
+				"tell me about mess facility fees",
+				"tell me about mess fees"
+			],
+			"responses": [
+				"Mess fees is include in hostel fees \n Single room -> 1,17,000 (including mess fees) \n Double sharing room -> 1,17,000 + 25000 (including mess fees)"
+			]
+		},
+		{
+			"tag": "college_fees",
+			"patterns": [
+				"how much we have pay for fees",
+				"what is the fees of your college",
+				"tell me about fees",
+				"what is the annual course fee"
+			],
+			"responses": [
+				"If you want to know about fees then please mention it specifically e.g. course fees,Mess fees or hostel fees"
+			]
+		},
+
+		{
+			"tag": "anti_ragging",
+			"patterns": [
+				"is there ragging cases in your college",
+				"is there any ragging incident happen",
+				"any ragging case occur in your college",
+				"Tell me about anti-raging initiatives in your college.",
+				"ragging"
+			],
+			"responses": [
+				"No, we strictly follow anti-ragging guideline by government of india and our college have very friendly environment."
+			]
+		},
+		{
+			"tag": "library_facility",
+			"patterns": [
+				"tell me about your university library",
+				"have your college have library",
+				"do you have departmental library in your college",
+				"you have library facility in your university"
+			],
+			"responses": [
+				"SMIT has Library which is a two storied building with 2960 sq m carpet area. The total seating capacity of Library is 428 users at a time.\nSMIT Library has built up a rich collection of books on all branches of Engineering, Science and Management."
+			]
+		},
+		{
+			"tag": "smit_certified",
+			"patterns": [
+				"is your college is UGC approval",
+				"tell me is your college have NBA approval",
+				"is smit is NBA certified",
+				"is smit is AICTE certified",
+				"is smit is UGC certified",
+				"is smit follows UGC guidelines",
+				"is smit is ISO 9001 certified"
+			],
+			"responses": [
+				"SMIT enjoys approval by All India Council of Technical Education (AICTE) and University Grants Commission (UGC). It is also accredited by NBA. In addition, it also holds ISO 9001 accreditation vide NS-EN ISO 9001:2000."
+			]
+		},
+		{
+			"tag": "smit_certified_NAAC_grade",
+			"patterns": [
+				"is your college is NAAC guidelines",
+				"tell me about grade of smit in NAAC",
+				"what is the grade of smit in NAAC",
+				"grade of your college in NAAC"
+			],
+			"responses": [
+				"In my knowledge ,Our college has 'B' Grade in NAAC till 2022 but we are try for upgradation in 2022"
+			]
+		},
+		{
+			"tag": "placements_handle",
+			"patterns": [
+				"What is the status of your college in terms of placements ?",
+				"tell me about your placement statistics",
+				"how you help the student for job hiring",
+				"How your college placed the student ?",
+				"how your college handles college placement"
+			],
+			"responses": [
+				"We have a dedicated Training & Placement cell to provide students with necessary training in order to enhance \ntheir employbility and support with best possible carrier oppurtunities, We have 95% placement record."
+			]
+		},
+		{
+			"tag": "placements_companies",
+			"patterns": [
+				"which companies visit the smit for the placements",
+				"tell me about companies visit the smit for the placements",
+				"comapanies visited your campus",
+				"tell me about companies that offer placements in your college"
+			],
+			"responses": [
+				"Company that visited smit for placement are Dell ,Microsoft,Amazon and many more......"
+			]
+		},
+		{
+			"tag": "placements_of_smit",
+			"patterns": [
+				"tell me about placement of your college",
+				"how are the placements at smit",
+				"placements in your college"
+			],
+			"responses": [
+				"About 93% of the students got placed in 2020 with the highest salary package of 22 LPA and the average salary package of 5.6 LPA. Top recruiting companies here are Wipro, TCS, Microsoft, Infosys, Dell, etc."
+			]
+		},
+		{
+			"tag": "placements_package",
+			"patterns": [
+				"What is the status of your college in terms of average package  ?",
+				"tell me about average package in your university",
+				"how is the placements of your college",
+				"average package in your university",
+				"smit placements",
+				"what was the maximum package offered in smit",
+				"tell me about college placement",
+				"tell me about sikkim manipal institute of technology placements",
+				"average package of sikkim manipal institute of technology"
+			],
+			"responses": [
+				"According to NIRF report 2022, the median package offered to UG students during Sikkim Manipal University placements 2021 was between INR 2.50 LPA to INR 5.40 LPA."
+			]
+		},
+		{
+			"tag": "highest_package",
+			"patterns": [
+				"What is the highest package of your college",
+				"what is the maximum package of smit",
+				"tell me about highest package in your university in resent year",
+				"highest package in your university"
+			],
+			"responses": [
+				"Highest salary offered in SMIT  : 29.25 Lacs PA by Commvault"
+			]
+		},
+		{
+			"tag": "laundary_cloth",
+			"patterns": [
+				"how do students wash their clothes at the hostel",
+				"Do you offer laundry services at your hostel ?",
+				"tell me about laundry service in your hostel",
+				"tell me about is laundary facility available",
+				"tell me about we wash our cloth in your hostel",
+				"Is it possible for students to do their own washing service available ?"
+			],
+			"responses": [
+				"yes, we provide laundry service for every student in our college with affordable prices"
+			]
+		},
+		{
+			"tag": "room_cleaning",
+			"patterns": [
+				"hostel room cleaning",
+				"how student clean their room in hostel",
+				"what student do for cleaning the room",
+				"How frequently are your hostel's rooms cleaned ?",
+				"Do you provide room cleaning services ?"
+			],
+			"responses": [
+				"cleanliness is our first priority in making our campus a healthy place to live in, all rooms are cleaned twice a week."
+			]
+		},
+		{
+			"tag": "food_quality",
+			"patterns": [
+				"is food quality is good in your mess",
+				"do mess provide good quality of food in your college ?",
+				"what standard of food quality you provide to the student",
+				"What level of food quality do you supply to students ?"
+			],
+			"responses": [
+				"We at SMIT take all measures to provide variety of suitable and hygenic food for every student with most common food menu."
+			]
+		},
+		{
+			"tag": "food_menu",
+			"patterns": [
+				"what type of food you provide to student",
+				"do mess provide south indian food or north indian food?",
+				"what is the menu in your mess?",
+				"how is the food",
+				"tell me about mess menu in your college?",
+				"name the food you offer to student in your mess ?"
+			],
+			"responses": [
+				"Cyclic Menu: A set of menu for various meals (breakfast, lunch, dinner) repeated at specific intervals ie. Every seven days and rotates again from the first day. Example: Hostel, mess, school food ser-vice and industrial canteens."
+			]
+		},
+		{
+			"tag": "smit_safety",
+			"patterns": [
+				"tell me about girls safety in your college",
+				"college is safe for girls student",
+				"are girls safe in your college?",
+				"can girls stay in college safely",
+				"are girls feel safe in your university ?"
+				
+			],
+			"responses": [
+				"Yes, SMIT strictly follows rules and regulations for the safety of girls."
+			]
+		},
+		{
+			"tag": "smit_cultural_activity",
+			"patterns": [
+				"tell me about activities in your college",
+				"cultural activities in college?",
+				"cultural fest in college?",
+				"extracurricular activities in college?"
+				
+			],
+			"responses": [
+				"Cultural activities bring out the creative side of the students and the participation and organisation of these are the best learning experience a student can have.",
+				"Annual fest in SMIT is called Kaalrav. If you want a general answer, you won't get one. It all depends on how you decide to spend the time during the fest. "
+			]
+		},
+		{
+			"tag": "hostel_system",
+			"patterns": [
+				"what is your hostel system",
+				"tell me about hostel system",
+				"arangement of your university girls hostel",
+				"administration of your university's boys or girls hostel",
+				"Do you provide separate hostel facilities for boys and girls ?",
+				"what about your hostel management in your campus",
+				"how many students live in your hostel"
+			],
+			"responses": [
+				"SMIT is a fully residential institute with separate hostel for boys and girls, providing a home away from home to over 3000\nstudents. There are separate students mess and canteen for boys and girls providing vegetarian and non-vegetarian meals and a\nfood court for all"
+			]
+		},
+		{
+			"tag": "hostel_system",
+			"patterns": [
+				"what is the average ratio of girls and boys",
+				"tell me about average ratio of girls and boys",
+				"average ratio of girls and boys in your college",
+				"in your college, average ratio of girls and boys "
+			],
+			"responses": [
+				"Male to female percentage is found to be 70% : 30% in SMIT-Sikkim Manipal Institute of Technology."
+			]
+		},
+		{
+			"tag": "smit_salon",
+			"patterns": [
+				"tell me about salon near your college",
+				"tell me about barber shop",
+				"Where is the closest salon",
+				"is there any barbers shop near",
+				"is there any salon near"
+				
+			],
+			"responses": [
+				"yes, there is two salon shop near our college."
+			]
+		},
+		{
+			"tag": "smit_mall",
+			"patterns": [
+				"tell me about mall near your college",
+				"tell me about mall mearby",
+				"Where is the closest mall",
+				"is there any mall near"
+			],
+			"responses": [
+				"You must travel to Singtam to visit the mall.."
+			]
+		},
+		{
+			"tag": "railway_station",
+			"patterns": [
+				"Tell me about the railway station near your college.",
+				"railway station",
+				"railway station nearest to your college"
+				
+			],
+			"responses": [
+				"Railway station :NJP is the railway station of the largest city of North Bengal (Siliguri), which is popularly referred as the gateway of northeast India. "
+			]
+		},
+		{
+			"tag": "airport",
+			"patterns": [
+				"tell me about airport near your college.",
+				"tell me about airport near your college.",
+				"tell me about airport nearby.",
+				"airport",
+				"airport nearest to your college"
+				
+			],
+			"responses": [
+				"airport : there are two option for you 1st is Pakyong(PYG) Airport, Sikkim or 2nd is Bagdogra International Airport,Distt. Darjeeling Siliguri, Bagdogra, West Bengal 734421 "
+			]
+		},
+		{
+			"tag": "project_funded",
+			"patterns": [
+				"is government fund smit student project",
+				"tell me about projects funded in your college",
+				"projects running at smit funded by government"
+				
+			],
+			"responses": [
+				"SMIT has successfully completed 52 sponsored projects worth Rs. 15.40 crores. Our sponsors are AICTE, DST, DBT, DIETY, DRDO and ISRO and many other Govt."
+			]
+		},
+		{
+			"tag": "class_timing",
+			"patterns": [
+				"tell me about gate timings for dayscholare in your college",
+				"tell me about class timings in your college",
+				"class timings in your college",
+				"gate timings for dayscholare"
+				
+			],
+			"responses": [
+				"Every day the classes will be conducted from 9.00 A.M. to 5.30 P.M. including the time for projects and extra-curricular activities. To facilitate guest lectures by industry experts and professors from other reputed universities, Saturdays will be full working days at SMIT."
+			]
+		},
+		{
+			"tag": "courier_service",
+			"patterns": [
+				"give me idea about courier service in your college",
+				"tell me courier service is available in your college",
+				"tell me do flipkart give courier service in SMIT college",
+				"tell me do Myntra give courier service in SMIT college",
+				"tell me do amazon give courier service in SMIT college"
+				
+			],
+			"responses": [
+				"Yes, In our college, companies like Amazon, Flipkart, Myntra, and many others offer courier services."
+			]
+		},
+		{
+			"tag": "research_facility",
+			"patterns": [
+				"tell me about research facility in your college",
+				"your college have research facility",
+				"is there research facility in the college",
+				"you have research in your university"
+			],
+			"responses": [
+				"SIKKIM MANIPAL INSTITUTE OF TECHNOLOGY (SMIT), since the day of its inception in the year 1997, has come a long way and achieved credibility in the field of research in science, technology and management. There are good numbers of sponsored projects under the supervision of faculty members from various agencies like AICTE, DST, DBT, DeitY, DRDO, SERB, ISRO and SMU."
+			]
+		},
+		{
+			"tag": "gym_facility",
+			"patterns": [
+				"tell me about gym facility in your college",
+				"you have gym",
+				"your college have gym facility",
+				"is there any gym in the college",
+				"you have gym in your university"
+			],
+			"responses": [
+				"We have a Gym facility in our Multipurpose Sports Complex (Marena) within campus."
+			]
+		},
+		{
+			"tag": "swimming_pool_facility",
+			"patterns": [
+				"tell me about swimming pool in your college",
+				"you have swimming pool",
+				"your college have swimming pool facility",
+				"is there any swimming pool in the college",
+				"you have swimming pool in your university"
+			],
+			"responses": [
+				"We have a swimming pool facility in our Multipurpose Sports Complex (Marena) within campus."
+			]
+		},
+		{
+			"tag": "basketball_facility",
+			"patterns": [
+				"tell me about basketball in your college",
+				"you have basketball ground",
+				"your college have basketball facility",
+				"is there any basketball in the college",
+				"you have basketball in your university"
+			],
+			"responses": [
+				"We have a basketball facility behind our Hostel No. 1 within a campus."
+			]
+		},
+		{
+			"tag": "football_facility",
+			"patterns": [
+				"tell me about football in your college",
+				"you have football ground",
+				"your college have football facility",
+				"is there any football in the college",
+				"you have football in your university"
+			],
+			"responses": [
+				"We have a football facility in our Hostel No. 1 within a campus."
+			]
+		},
+		{
+			"tag": "badminton_facility",
+			"patterns": [
+				"tell me about badminton facility in your college",
+				"you have badminton facility",
+				"your college have badminton facility",
+				"is there any badminton facility in the college",
+				"you have badminton facility in your university"
+			],
+			"responses": [
+				"We have a badminton facility in our Multipurpose Sports Complex (Marena) within campus."
+			]
+		},
+		{
+			"tag": "chess_room_facility",
+			"patterns": [
+				"tell me about chess facility in your college",
+				"you have chess facility",
+				"your college have chess facility",
+				"is there any chess facility in the college",
+				"you have chess facility in your university"
+			],
+			"responses": [
+				"We have a chess room facility in our Multipurpose Sports Complex (Marena) within campus."
+			]
+		},
+		{
+			"tag": "cricket_ground",
+			"patterns": [
+				"tell me about cricket ground in your college",
+				"you have cricket ground",
+				"your college have cricket ground",
+				"is there any cricket ground in the college",
+				"you have cricket ground in your university"
+			],
+			"responses": [
+				"We have a large cricket ground in our campus."
+			]
+		},
+		{
+			"tag": "futsal_ground",
+			"patterns": [
+				"tell me about futsal ground in your college",
+				"you have futsal ground",
+				"your college have futsal ground",
+				"is there any futsal ground in the college",
+				"you have futsal ground in your university"
+			],
+			"responses": [
+				"We have a futsal facility in our Hostel No. 1 within a campus."
+			]
+		},
+		{
+			"tag": "table_tennnis",
+			"patterns": [
+				"tell me about table tennnis facility in your college",
+				"you have table tennnis facility",
+				"your college have ftable tennnis facility",
+				"is there any table tennnis facilityd in the college",
+				"you have table tennnis facilityd in your university"
+			],
+			"responses": [
+				"We have a table tennnis facility in our Multipurpose Sports Complex (Marena) within campus."
+			]
+		},
+		{
+			"tag": "sport",
+			"patterns": [
+				"you have Squash rackets in your college",
+				"you have indoor games",
+				"you have table tennnis",
+				"Tell me about your college's sports facilities.",
+				"you have playground or ground for sport activity",
+				"you have sports complex in your university"
+			],
+			"responses": [
+				"We have a Multipurpose Sports Complex (Marena) well-equipped with Gym, various recreation & sports facilities like swimming pool, squash, basketball, badminton, table tennis, snooker/pool etc. The entire facility is centrally air conditioned, operational on a timely basis. A well facilated ground for Cricket, football and track events is also located within campus."
+			]
+		},
+		{
+			"tag": "faculty_member",
+			"patterns": [
+				"tell me about I.T. department Faculty member of smit ",
+				"I.T. department Facult member are good",
+				"I.T. department teacher are good",
+				"tell me about your college teacher",
+				"are I.T. facult member good",
+				"tell me about faculty in your college"
+			],
+			"responses": [
+				"The I.T. department faculty members are highly qualified and well experienced. At the same time, they are friendly and helpful for students. "
+			]
+		}, 
+		{
+			"tag": "university_name",
+			"patterns": [
+				"tell me about your college full name",
+				"tell me university full name",
+				"name of your college",
+				"your college known for which name",
+				"your university name",
+				"what is your university name"
+			],
+			"responses": [
+				"Sikkim Manipal Institute of Technology, a constituent college of Sikkim Manipal University, formerly known as Sikkim Manipal University of Health, \n Medical and Technological Sciences is a private institute located in Majitar, Sikkim, India."
+			]
+		},
+		{
+			"tag": "shopping",
+			"patterns": [
+				"Is there a shop close to the university ?",
+				"where we get our daily supplies",
+				"where we go for buying daily product",
+				"where do we go to acquire our everyday products",
+				"where do I go to shop in college"
+			],
+			"responses": [
+				"we have our SMIT store and other shop near our college, that fulfil your everyday daily needs"
+			]
+		},
+		{
+			"tag": "post_office",
+			"patterns": [
+				"Is there a post office close to the university ?",
+				"tell me about post office near your college"
+			],
+			"responses": [
+				"Post office is near the main gate of our college."
+			]
+		},
+		{
+			"tag": "smit_for_parent",
+			"patterns": [
+				"Your college provides parents with overnight accommodations for a few days.",
+				"where parents stay in your university",
+				"Where do our parents spend the night at your establishment?",
+				"Tell me about parent accommodations throughout their visit."
+			],
+			"responses": [
+				"We have a separate building for parents' sleeping and dining."
+			]
+		},
+		{
+			"tag": "guest_house",
+			"patterns": [
+				"is there guest house near your college",
+				"where parents stay in your university",
+				"Where do our parents spend the night at your establishment?",
+				"Tell me about parent accommodations throughout their visit."
+			],
+			"responses": [
+				"We have a separate building for parents' sleeping and dining."
+			]
+		},
+		
+
+		{
+			"tag":  "store",
+			"patterns": [
+				"is there stationary shop near college",
+				"is shopping complex nearby place",
+				"any market nearby at your college",
+				"nearby market",
+				"is there book store near campus",
+				"is market near your university"
+			],
+			"responses": [
+				"we have our SMIT store and other shop near our college, that fulfil your everyday daily needs"
+			]
+		},
+		{
+			"tag": "health",
+			"patterns": [
+				"Tell me about the healthcare facility",
+				"tell me about the healthcare institution.",
+				"On your university campus, you have a dispensary",
+				"You have a first-aid station on campus",
+				"You have a nearest health centre on campus",
+				"As a student, where do I go for health-related issues ?",
+				"is there a hospital nearby?"
+			],
+			"responses": [
+				"Yes, we have our separate health care building, there we provide immediate first-aid Services"
+			]
+		},
+		{
+			"tag": "hostel_room",
+			"patterns": [
+				"Students may live alone or in a shared room",
+				"is it possible to share a room at a hostel ?",
+				"is it possible to single room at a hostel ?",
+				"The student shares a room with his roommate",
+				"in hostel, you have single room",
+				"in hostel, you have sharing room",
+				"tell me about hostel room"
+			],
+			"responses": [
+				"We provide room for both single or sharing with attached bathroom facility"
+			]
+		},
+		{
+			"tag": "girl_hostel",
+			"patterns": [
+				"Do girls have separate hostel buildings ?",
+				"You have a girls' hostel available.",
+				"Tell me about the females' dorms in your hostel.",
+				"accommodation for female students at your university"
+			],
+			"responses": [
+				"We have a separate girls dormitory on campus where you may live alone or with a female roommate."
+			]
+		},
+		{
+			"tag": "university_wifi",
+			"patterns": [
+				"Is wifi available at college",
+				"how is wifi facility in smit",
+				"university give student wifi service in hostel",
+				"is College provides wifi access with a GB restriction.",
+				"is College provides wifi access with a data limit.",
+				"The college provides wifi service."
+			],
+			"responses": [
+				"Yes, we offer dependable wifi access to students in the academic block and in the hostel, with a speed of 2 mbps and a monthly allowance of 60 GB."
+			]
+		},
+		{
+			"tag": "documents_required",
+			"patterns": [
+				"tell me about the documents needed for entrance",
+				"what documents are needed for admission",
+				"which documents are required for university registration ?",
+				"Is original documentation necessary for registration at your university?",
+				"documents necessary for admission"
+			],
+			"responses": [
+				"for document related query go to this link : https://apply.applysmit.in/"
+			]
+		},
+		{
+			"tag": "student_life",
+			"patterns": [
+				"tell me about the student life at SMIT",
+				"is student is happy life in your college",
+				"What is your university's student life like ?"
+			],
+			"responses": [
+				"For smit student life related query go to this link : https://smu.edu.in/smit/know-smit.html"
+			]
+		},
+		{
+			"tag": "food_canteen",
+			"patterns": [
+				"tell me about the Canteens",
+				"is there any Canteens in your college",
+				"food Canteens in your hostel"
+			],
+			"responses": [
+				"In the bottom level of the marina building, there are our canteens. "
+			]
+		},
+		{
+			"tag": "night_canteen",
+			"patterns": [
+				"tell me about the Night Canteens",
+				"is there any Night Canteens in your college",
+				"Night Canteens in your hostel"
+			],
+			"responses": [
+				"The Night Canteens open at around 11:00 pm and it's open all the way up to two-three in the morning. "
+			]
+		},
+		{
+			"tag": "hot_water",
+			"patterns": [
+				"tell me about hot water in bathroom in your hostel",
+				"you provide hot water in your college hostel",
+				"hot water in your hostel"
+			],
+			"responses": [
+				"yes , Every student in our dormitory has access to hot water 24 hours a day. "
+			]
+		},
+		{
+			"tag": "water_supply",
+			"patterns": [
+				"tell me about water supply in your hostel",
+				"you provide water in your college hostel",
+				"water supply in your hostel"
+			],
+			"responses": [
+				"yes , Water is always available to students in our dorm, 24 hours a day. "
+			]
+		},
+		{
+			"tag": "electricity_supply",
+			"patterns": [
+				"tell me about electricity supply in your hostel",
+				"you provide electricity in your college hostel",
+				"electricity supply in your hostel"
+			],
+			"responses": [
+				"24 hours a day, the electricity at our campus is always available to the students who stay in our dormitory. "
+			]
+		},
+		{
+			"tag": "annual_fest",
+			"patterns": [
+				"tell me about the annual fest of SMIT",
+				" annual fest of SMIT",
+				" annual fest of your university",
+				"is there any annual fest in your college"
+			],
+			"responses": [
+				"Annual fest in SMIT is called Kaalrav.Kaalrav generally lasts for 2-3 days. Various colleges from the locality come to perform at Kaalrav.The days are filled with events (sports, art, drama,etc). "
+			]
+		},
+		{
+			"tag": "university_weather",
+			"patterns": [
+				"sikkim weather",
+				"tell me about your college weather environment",
+				"is your college environment is raining all time",
+				"what type of weather environment at your university"
+			],
+			"responses": [
+				"Sikkim usually has calm, pleasant weather and healthy campus environemnt"
+			]
+		},
+		{
+			"tag": "how_reach_smit",
+			"patterns": [
+				"tell me how i reach your college ",
+				"how to reach smit"
+			],
+			"responses": [
+				"using a train, bus, or airport are just a few of the ways you can try to reach our college."
+			]
+		},
+		{
+			"tag": "distace_between_gantok",
+			"patterns": [
+				"tell me about distace between gantok and your college ",
+				"distace between gantok and smit",
+				"distace b/w gantok and smit",
+				"what is distace between gantok and your college"
+			],
+			"responses": [
+				"distace between gantok and SMIT is nearly about 34.1 K.M."
+			]
+		},
+		{
+			"tag": "distace_between_railway",
+			"patterns": [
+				"tell me about distace NJP and your college ",
+				"distace between NJP and smit",
+				"distace b/w NJP and smit",
+				"distace between jalpaiguri railway station and smit",
+				"distace between jalpaiguri and smit",
+				"what is distace between NJP and your college"
+			],
+			"responses": [
+				"distace between jalpaiguri railway station and SMIT is nearly about 121.1 K.M."
+			]
+		},
+		{
+			"tag": "distace_between_airport",
+			"patterns": [
+				"tell me about distacebagdogra airport and your college ",
+				"distace between bagdogra airport and smit",
+				"distace b/w bagdogra airport and smit",
+				"what is distace between bagdogra airport and your college"
+			],
+			"responses": [
+				"distace between jbagdogra airport and SMIT is nearly about 91.7 K.M."
+			]
+		},
+		
+		{
+			"tag": "chatbot_name",
+			"patterns": [
+				"chatbot name",
+				"who are you",
+				"what your name",
+				"tell me your name"
+			],
+			"responses": [
+				"My name is Leon, and I work as a registration chatbot for my university."
+			]
+		},
+		{
+			"tag": "name_compliment_reply",
+			"patterns": [
+				"nice",
+				"good name",
+				"nice name"
+			],
+			"responses": [
+				"Thank you, it's kind of you to tell me"
+			]
+		},
+		{
+			"tag": "master_code_name",
+			"patterns": [
+				"201900238"
+			],
+			"responses": [
+				"My creator gave me the name xicor as my true name."
+			]
+		},
+		{
+			"tag": "how_was_day",
+			"patterns": [
+				"how was your day"
+			],
+			"responses": [
+				"Nice ,what about you"
+			]
+		},
+		{
+			"tag": "about_college",
+			"patterns": [
+				"give me idea about your college",
+				"tell me about smit",
+				"tell me something your college",
+				"tell me something about smit",
+				"tell me more about the your college"
+				
+			],
+			"responses": [
+				"Sikkim Manipal Institute of Technology offers more than 22 undergraduate, postgraduate, and doctoral programmes in a full-time mode. "
+			]
+		},
+		{
+			"tag": "why_chose_smit",
+			"patterns": [
+				"why should i take admission at university",
+				"which college is good IIT or smit",
+				"is there any reason to take admission",
+				"tell me something good about your college",
+				"what is so great about your college"
+			],
+			"responses": [
+				"our college advantage for you: Well-qualified and experienced faculty: A potent, powerful blend of academic experience and industry exposure, the faculty at Manipal Academy of Higher Education don several hats on campus. They employ the latest teaching techniques, making extensive use of modern technology."
+			]
+		},
+		{
+			"tag": "smit_when_established",
+			"patterns": [
+				"when smit is established",
+				"when smit is founded",
+				"date in which smit is established"
+			],
+			"responses": [
+				"Smit is established in year : 1996"
+			]
+		},
+		{
+			"tag": "college_email",
+			"patterns": [
+				"tell me college email id",
+				"university email address",
+				"what is college email id"
+			],
+			"responses": [
+				"Email : smit@smu.edu.in"
+			]
+		},
+		{
+			"tag": "contact_us",
+			"patterns": [
+				"tell me how i contact your university",
+				"contact number of you",
+				"is there way to contact to your college",
+				"how i contact you"
+			],
+			"responses": [
+				"Go to this link for contact us : https://smu.edu.in/smu/contact-us.html"
+			]
+		},
+		{
+			"tag": "university_address",
+			"patterns": [
+				"where your university located",
+				"tell me your college full address",
+				"give me your college address",
+				"tell me where is the college",
+				"What is the address of your college ?",
+				"tell me your college location in india",
+				"tell me your college address in india",
+				"tell me your college location in sikkim"
+			],
+			"responses": [
+				"Our college, Address: Majitar, Rangpo, Dist- East Sikkim, Sikkim, pin- 737136 "
+			]
+		},
+		{
+			"tag": "smit_pin_code",
+			"patterns": [
+				"tell me about pin code of your college",
+				"what your college pin code"
+				
+			],
+			"responses": [
+				"Our college, pin code - 737136 "
+			]
+		},
+		{
+			"tag": "good_reply",
+			"patterns": [
+				"good"
+			],
+			"responses": [
+				"I know it's awesome"
+			]
+		},
+		{
+			"tag": "see_you_at__reply",
+			"patterns": [
+				"okay see you at smit",
+				"see you at smit",
+				"i coming to meet you smit",
+				"okay meet you at smit"
+			],
+			"responses": [
+				"I wish to see you at smit"
+			]
+		},
+		{
+			"tag": "timing_wish",
+			"patterns": [
+				"good night",
+				"good morning",
+				"good evening"
+			],
+			"responses": [
+				"Same to you"
+			]
+		},
+		{
+			"tag": "ok",
+			"patterns": [
+				"ok",
+				"o.k.",
+				"okay"
+			],
+			"responses": [
+				"Okay"
+			]
+		},
+		{
+			"tag": "thanks",
+			"patterns": [
+				"Thanks",
+				"Thank",
+				"Thank you",
+				"That's helpful",
+				"Thank's a lot!"
+			],
+			"responses": [
+				"Happy to help!",
+				"Any time!",
+				"My pleasure"
+			]
+		}
+	]
+}
