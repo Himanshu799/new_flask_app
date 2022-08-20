@@ -1,2 +1,7 @@
 *.pyc
 /node_modules
+# Heres a comment
+*.psd
+*.pdf
+/test
+/spec
